@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styleColorGame.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:200,400,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Color Game</title>
+  </head>
+  <body>
+    <h1 class="title">
+      Click on the Color Below:<br />
+      <span class="displayRGB">RGB</span> <br />
+      <span id="descriptionRGB">(Red, Green, Blue) - Min: 0, Max: 255</span>
+    </h1>
+    <div class="menu">
+      <button class="btnReset">Randomize Colors</button>
+      <span class="systemMsg"></span>
+      <button class="btnGameMode" id="3">Easy</button>
+      <button class="btnGameMode" id="6">Medium</button>
+      <button class="btnGameMode selected" id="9">Hard</button>
+    </div>
+    <!-- Color Tiles -->
+    <div class="container">
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+    </div>
+
+    <div class="footer">Created by: Arthur Andrade</div>
+
+    <script src="logicColorGame.js"></script>
+  </body>
+</html>
