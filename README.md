@@ -1,5 +1,8 @@
 # Color Game
 
+![Color Game Logo](assets/img/Color-Game-Logo.png)
+
+
 >This is a simple RGB Color Guessing project to pass some time and experiment with vanilla Javascript + CSS
 ---
 **Technologies used:** 
